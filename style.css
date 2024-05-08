@@ -4,7 +4,8 @@ html, * {
 }
 
 body {
-   background-color: white;
+   background-image: linear-gradient(to right, #172634, #325D85);
+   overflow-x: auto;
 }
 
 .contain-page {
@@ -63,3 +64,34 @@ body {
    color: #ffff;
 }
 
+footer {
+   position: relative;
+   color: #ffff;
+   font-family: sans-serif;
+}
+footer {
+   margin-left: 50px;
+}
+footer h1 {
+   font-size: 36px;
+   margin-top: 100px;
+   margin-left: 10px;
+}
+footer img {
+   width: 200px;
+   height: 200px;
+   transform: translateY(-50px);
+}
+footer .add-info {
+   margin: 30px;
+   margin-left: 350px;
+   transform: translateY(-265px);
+}
+.add-info h3 {
+   padding-bottom: 5px;
+}
+.add-info ul li {
+   /* display: inline; */
+   list-style-type: none;
+   padding: 5px;
+}
