@@ -1,3 +1,7 @@
-const Year = new Date()
-
-Year.getFullYear()
+if(window.innerWidth < 700)
+{
+   console.log("mobile view")
+}
+else {
+   console.log("default view")
+}
