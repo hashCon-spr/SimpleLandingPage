@@ -13,15 +13,16 @@ body {
 }
 .contain-page h1 {
    font-family: sans-serif;
-   transform: translate(0px, -560px);
+   transform: translate(0px, -570px);
    text-decoration: none;
    padding: 1rem;
+   padding-left: 40px;
    color: #ffff;
 }
 
 .navbar-role {
    position: absolute;
-   transform: translate(600px, -550px);
+   transform: translate(600px, -555px);
 }
 .navbar-role ul li {
    font-family: sans-serif;
@@ -29,5 +30,36 @@ body {
    text-decoration: none;
    display: inline;
    justify-content: space-between;
-   padding: 10px;
+   padding: 15px;
+   padding-bottom: 5px;
+   cursor: pointer;
+   position: relative;
+
 }
+.navbar-role ul li::after {
+   content: '';
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+   width: 0;
+   height: 2px;
+   background-color: #0F76D6;
+   transition: width 0.3s ease;
+   
+}
+.navbar-role ul li:hover {
+   color: #0F76D6;
+   /* transition: 0.3s ease-out; */
+}
+.navbar-role ul li:hover::after {
+   width: 100%;
+}
+
+.main-content {
+   position: absolute;
+   transform: translate(0px, -300px);
+   font-family: sans-serif;
+   padding: 2rem;
+   color: #ffff;
+}
+
