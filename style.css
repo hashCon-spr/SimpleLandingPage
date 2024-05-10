@@ -63,14 +63,16 @@ body {
    padding: 2rem;
    color: #ffff;
 }
+.main-content p {
+   margin-bottom: 0px;
+}
 
 footer {
    position: relative;
    color: #ffff;
    font-family: sans-serif;
-}
-footer {
    margin-left: 50px;
+   padding-top: 40px;
 }
 footer h1 {
    font-size: 36px;

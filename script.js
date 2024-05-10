@@ -5,3 +5,6 @@ if(window.innerWidth < 700)
 else {
    console.log("default view")
 }
+
+// scroll effect
+// $(".mobile-bar").remove()
