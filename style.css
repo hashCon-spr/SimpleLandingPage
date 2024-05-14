@@ -13,7 +13,6 @@ body {
    transform: translate(0px, -10px);
 }
 .contain-page h1 {
-   font-family: sans-serif;
    /* width: 300px;
    height: 300px; */
    transform: translate(0px, -660px);
@@ -28,7 +27,6 @@ body {
    transform: translate(600px, -650px);
 }
 .navbar-role ul li {
-   font-family: sans-serif;
    color: #ffff;
    text-decoration: none;
    display: inline;
@@ -61,18 +59,13 @@ body {
 .main-content {
    position: absolute;
    transform: translate(0px, -400px);
-   font-family: sans-serif;
-   padding: 2rem;
    color: #ffff;
-}
-.main-content p {
-   margin-bottom: 0px;
+   padding: 2rem;
 }
 
 footer {
    position: relative;
    color: #ffff;
-   font-family: sans-serif;
    margin-left: 50px;
    padding-top: 40px;
 }
