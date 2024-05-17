@@ -15,7 +15,7 @@ body {
 .contain-page h1 {
    /* width: 300px;
    height: 300px; */
-   transform: translate(0px, -660px);
+   transform: translate(0px, -670px);
    text-decoration: none;
    padding: 1rem;
    padding-left: 40px;
@@ -25,17 +25,29 @@ body {
 .navbar-role {
    position: absolute;
    transform: translate(600px, -650px);
+   background-color: transparent;
+   transition: 0.3s ease-out;
 }
 .navbar-role ul li {
    color: #ffff;
    text-decoration: none;
    display: inline;
    justify-content: space-between;
-   padding: 15px;
+   padding: 20px;
    padding-bottom: 5px;
    cursor: pointer;
    position: relative;
 
+}
+/* navbar scrolled */
+.navbar-scrolled {
+   background-color: #ffffff; /* Ganti warna latar belakang navbar saat discroll */
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Tambahkan shadow untuk efek floating */
+}
+/* testing  */
+.navbar-role ul li a {
+   text-decoration: none;
+   color: #ffff;
 }
 .navbar-role ul li::after {
    content: '';
@@ -48,7 +60,7 @@ body {
    transition: width 0.3s ease;
    
 }
-.navbar-role ul li:hover {
+.navbar-role ul li a:hover {
    color: #2AE555;
    /* transition: 0.3s ease-out; */
 }
@@ -61,6 +73,10 @@ body {
    transform: translate(0px, -400px);
    color: #ffff;
    padding: 2rem;
+   text-align: justify;
+}
+.font-custom {
+   font-size: 17px;
 }
 
 footer {
@@ -91,4 +107,75 @@ footer .add-info {
    /* display: inline; */
    list-style-type: none;
    padding: 5px;
+}
+
+.about-content {
+   margin-top: 300px;
+   margin-bottom: 300px;
+}
+.about-content .sign-content {
+   padding: 30px;
+   color: #ffff;
+   text-align: center;
+}
+
+.contact-content {
+   margin-top: 300px;
+   margin-bottom: 600px;
+}
+.contact-logo {
+   float: right;
+}
+.contact-logo ul li {
+   color: #ffff;
+   list-style-type: none;
+}
+
+/* github logo */
+.email-logo {
+   width: 700px;
+   height: 400px;
+   border: 2px solid;
+   border-radius: 5px;
+   margin-right: 100px;
+   transform: translateY(-100px);
+   display: flex;
+   justify-content: center;
+}
+.email-logo .fa-envelope {
+   padding-top: 20px;
+   display: flex;
+   justify-content: center;
+}
+.email-des p{
+   text-align: justify;
+   /* padding: 10px; */
+}
+
+/* service content */
+.service-content {
+   margin-top: 700px;
+   margin-bottom: 500px;
+}
+.box-one {
+   margin: 100px !important;
+}
+/* .box-one .truck-content {
+   text-align: center;
+   color: #ffff;
+} */
+
+/* mobile view */
+
+@media (max-width: 400px)
+{
+   .main-img {
+      width: 100%;
+   }
+   
+   .navbar-role {
+      position: relative;
+   }
+
+
 }
