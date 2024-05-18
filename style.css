@@ -5,40 +5,42 @@ html, * {
 
 body {
    background-image: linear-gradient(to right, #172634, #325D85);
-   overflow-x: auto;
 }
 
-.contain-page {
-   position: absolute;
-   transform: translate(0px, -10px);
-}
 .contain-page h1 {
-   /* width: 300px;
-   height: 300px; */
-   transform: translate(0px, -670px);
+   transform: translate(0px, -35px);
    text-decoration: none;
    padding: 1rem;
    padding-left: 40px;
    color: #ffff;
+   position: absolute;
 }
 
 .navbar-role {
-   position: absolute;
-   transform: translate(600px, -650px);
    background-color: transparent;
    transition: 0.3s ease-out;
+   margin-left: 500px;
+   margin-bottom: 0px;
+   margin-top: 40px;
 }
 .navbar-role ul li {
    color: #ffff;
    text-decoration: none;
    display: inline;
    justify-content: space-between;
-   padding: 20px;
+   padding: 25px;
    padding-bottom: 5px;
    cursor: pointer;
    position: relative;
 
 }
+
+.cloud-image {
+   margin-left: 580px;
+   margin-top: 100px;
+   margin-bottom: 300px;
+}
+
 /* navbar scrolled */
 .navbar-scrolled {
    background-color: #ffffff; /* Ganti warna latar belakang navbar saat discroll */
@@ -56,12 +58,12 @@ body {
    left: 0;
    width: 0;
    height: 2px;
-   background-color: #2AE555;
+   background-color: #1395EA;
    transition: width 0.3s ease;
    
 }
 .navbar-role ul li a:hover {
-   color: #2AE555;
+   color: #1395EA;
    /* transition: 0.3s ease-out; */
 }
 .navbar-role ul li:hover::after {
@@ -77,6 +79,12 @@ body {
 }
 .font-custom {
    font-size: 17px;
+}
+
+.landing-content {
+   position: absolute;
+   transform: translateY(-600px);
+   margin: 30px;
 }
 
 footer {
@@ -97,16 +105,26 @@ footer img {
 }
 footer .add-info {
    margin: 30px;
-   margin-left: 350px;
-   transform: translateY(-265px);
+   margin-left: 550px;
+   transform: translateY(-273px);
 }
-.add-info h3 {
-   padding-bottom: 5px;
-}
+
 .add-info ul li {
    /* display: inline; */
    list-style-type: none;
    padding: 5px;
+}
+
+.location {
+   margin-left: 800px;
+   transform: translateY(-480px);
+}
+.location p {
+   padding: 2px;
+   margin: 0px;
+}
+.location .envelope-content {
+   transform: translate(10px, -20px) !important;
 }
 
 .about-content {
@@ -131,27 +149,6 @@ footer .add-info {
    list-style-type: none;
 }
 
-/* github logo */
-.email-logo {
-   width: 700px;
-   height: 400px;
-   border: 2px solid;
-   border-radius: 5px;
-   margin-right: 100px;
-   transform: translateY(-100px);
-   display: flex;
-   justify-content: center;
-}
-.email-logo .fa-envelope {
-   padding-top: 20px;
-   display: flex;
-   justify-content: center;
-}
-.email-des p{
-   text-align: justify;
-   /* padding: 10px; */
-}
-
 /* service content */
 .service-content {
    margin-top: 700px;
@@ -164,6 +161,7 @@ footer .add-info {
    text-align: center;
    color: #ffff;
 } */
+
 
 /* mobile view */
 
