@@ -8,20 +8,28 @@ body {
 }
 
 .contain-page h1 {
-   transform: translate(0px, -35px);
    text-decoration: none;
-   padding: 1rem;
    padding-left: 40px;
+   transform: translateY(40px);
    color: #ffff;
-   position: absolute;
+   position: relative;
+}
+.main-security {
+   display: inline !important;
+}
+.navbar-role .login-nav {
+   transform: translate(100px, -5px);
+}
+.sign-up-hover:hover {
+   background-color: white;
 }
 
 .navbar-role {
    background-color: transparent;
    transition: 0.3s ease-out;
-   margin-left: 500px;
-   margin-bottom: 0px;
-   margin-top: 40px;
+   display: flex;
+   justify-content: center;
+   margin-left: 100px;
 }
 .navbar-role ul li {
    color: #ffff;
